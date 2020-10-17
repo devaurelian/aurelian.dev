@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Color Typer</title>
+  <meta name="description" content="">
+
+  <!-- Load the Roboto and Material Icons fonts. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <mwc-drawer hasHeader type="modal">
+    <span slot="title">DevAurelian</span>
+    <span slot="subtitle">passionate about all things tech and hello world programs (a.k.a. learning new things)</span>
+    <mwc-list>
+      <a href="/">
+        <mwc-list-item>Home</mwc-list-item>
+      </a>
+      <a href="/c/counterswithcolornames/">
+        <mwc-list-item>Counters With Color Names</mwc-list-item>
+      </a>
+      <a href="/w/webcolortyper/">
+        <mwc-list-item>Web Color Typer</mwc-list-item>
+      </a>
+    </mwc-list>
+
+    <!-- <div>
+      <p>Drawer content!</p>
+      <mwc-icon-button icon="gesture"></mwc-icon-button>
+      <mwc-icon-button icon="gavel"></mwc-icon-button>
+    </div> -->
+    <div slot="appContent">
+      <mwc-top-app-bar>
+        <mwc-icon-button slot="navigationIcon" icon="menu"></mwc-icon-button>
+        <div slot="title">DevAurelian</div>
+        <mwc-icon-button slot="actionItems" icon="favorite"></mwc-icon-button>
+      </mwc-top-app-bar>
+      <div>
+        <!-- content -->
+        <main class="dva-content-wrapper">
+          
+<h1>Web Color Typer</h1>
+
+  <a href="https://webcolortyper.aurelian.dev" target="_blank">
+    <mwc-button raised label="Launch" icon="launch"></mwc-button>
+  </a>
+  <a href="https://github.com/devaurelian/webcolortyper" target="_blank">
+    <mwc-button raised label="View Source" icon="source"></mwc-button>
+  </a>
+<p>An intentionally minimal progressive web app that lets you try web colors by typing their name, hex code, RGB triplet, and more.</p>
+
+        </main>
+      </div>
+    </div>
+  </mwc-drawer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
