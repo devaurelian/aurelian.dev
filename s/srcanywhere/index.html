@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SrcAnywhere - Open View Source on mobile and PC browsers</title>
+  <meta name="description" content="Inspect the source code of any webpage. A tiny bookmarklet that doesn&#39;t waste valuable resources, especially on resource constrained mobile devices.">
+
+  <!-- Load the Roboto and Material Icons fonts. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <mwc-drawer hasHeader type="modal">
+    <span slot="title">DevAurelian</span>
+    <span slot="subtitle">passionate about all things tech and hello world programs (a.k.a. learning new things)</span>
+
+    <mwc-list>
+  
+  <a href="/">
+    <mwc-list-item>Home</mwc-list-item>
+  </a>
+
+  
+  
+    <a href="/b/beepchecker/">
+      <mwc-list-item>BeepChecker</mwc-list-item>
+    </a>
+  
+    <a href="/c/counterswithcolornames/">
+      <mwc-list-item>Counters With Color Names</mwc-list-item>
+    </a>
+  
+    <a href="/s/srcanywhere/">
+      <mwc-list-item>SrcAnywhere</mwc-list-item>
+    </a>
+  
+    <a href="/w/webcolortyper/">
+      <mwc-list-item>Web Color Typer</mwc-list-item>
+    </a>
+  
+
+</mwc-list>
+
+
+    <div slot="appContent">
+      <mwc-top-app-bar>
+        <mwc-icon-button slot="navigationIcon" icon="menu"></mwc-icon-button>
+        <div slot="title">DevAurelian</div>
+        <mwc-icon-button slot="actionItems" icon="favorite"></mwc-icon-button>
+      </mwc-top-app-bar>
+      <div>
+        <!-- content -->
+        <main class="dva-content-wrapper">
+          
+<h1>SrcAnywhere</h1>
+
+<p>Open 'View Source' on mobile and PC browsers and inspect the source code of any webpage</p>
+<p>PC browsers have an easy to access View Source feature that lets you view the source code of any webpage, but what about mobile browsers, such as the ones running on your Android smartphone or tablet?</p>
+<p>You can install an app (or two), but for the lighter and minimalist solution, you can try SrcAnywhere. Once added to your browser as a humble bookmark(let), just tap the address bar, start typing &quot;src...&quot;, and select SrcAnywhere from the dropdown list that appears. The browser's built-in View Source feature will open in a new tab, revealing the HTML source code of the current webpage (with syntax highlighting included).</p>
+<p>You can customize and rename the SrcAnywhere bookmarklet to a shorter name if you like. As a bookmarklet, it does not waste any valuable resources, especially on resource constrained mobile devices. It doesn't require traditional installation, and even works on your desktop or portable PC, as a one click View Source alternative.</p>
+<h2>&quot;Install&quot; SrcAnywhere</h2>
+<p>On a PC: Simply drag the button to your browser's bookmarks bar (Chrome, Firefox, Safari, Opera, etc.)</p>
+<p>On a mobile device: Chrome for Android synchronizes your bookmarks with the PC, so SrcAnywhere should automatically appear on your device. On other mobile browsers (such as Firefox), long tap the button and select Bookmark Link.</p>
+<p>SrcAnywhere is free and Open Source. Read the SrcAnywhere License for more information. Or view the source code on GitHub Gist.</p>
+<h2>Notes</h2>
+<p>Unfortunately, Internet Explorer and Microsoft Edge do not support the view-source: protocol, so SrcAnywhere does not work with Microsoft's browsers.</p>
+<h2>Reviews</h2>
+
+        </main>
+      </div>
+    </div>
+  </mwc-drawer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
