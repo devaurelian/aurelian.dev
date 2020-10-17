@@ -1,0 +1,14 @@
+<mwc-list>
+  {# Home link #}
+  <a href="/">
+    <mwc-list-item>Home</mwc-list-item>
+  </a>
+
+  {# App links #}
+  {% for page in collections.drawerApps %}
+    <a href="{{ page.url }}">
+      <mwc-list-item>{{ page.data.title }}</mwc-list-item>
+    </a>
+  {% endfor %}
+
+</mwc-list>

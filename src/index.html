@@ -1,4 +1,15 @@
 ---
+title: Welcome
+
 seoTitle: DevAurelian
 ---
 
+{# App links #}
+{% for page in collections.homepageApps %}
+  <a href="{{ page.url }}">
+    <mwc-list-item twoline="twoline">
+      <span>{{ page.data.title }}</span>
+      <span slot="secondary">{{ page.data.description }}</span>
+    </mwc-list-item>
+  </a>
+{% endfor %}
